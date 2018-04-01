@@ -1,0 +1,79 @@
+----------------------------------------------------------------------------------------------------------------------------------------
+                                                           Notation
+----------------------------------------------------------------------------------------------------------------------------------------
+
+While writing in C I have created my own coding-notation that has changed over time. In this file I intend to explain the coding-notation
+used in most of these files. The notation used in older files might vary though.
+
+
+
+Table of Content
+-----------------
+1. Error-Handling         (Line: 19)
+2. Return-Values          (Line: 49)
+3. Naming Conventions     (Line: 64)
+4. Common Practices       (Line: ??)
+
+
+
+1. Error-Handling
+-----------------
+
+This section describes the default error-handling used in most of the code-files.
+The projects I have created are all console-applications. It is important to note though that the console should be treated as debug-window. As a result of that, debug-messages such as errors or warnings are often displayed there. These messages are usually marked as such by the following prefixes:
+
+- "[ERROR]" The execution of an operation failed. This debug-message is usually called right before the currently running function
+            returns with the appropriate failure-value. The message usually appears in two variations:
+            1. "[ERROR] Creation of \"<name>\"-object failed!\n"
+               The data-structure <name> could not be created.
+            2. "[ERROR] Function \"<func-name>\" failed!\n"
+               The Function <func-name> failed.
+            These errors SHOULD NOT directly lead to a crash. Their purpose is to provide insight what functions did actually fail in
+            case the applicaton crashes later.
+            
+            if this kind of error happens in a sub-routine, all the sub-routines up to the main function (in which this sub-routine is
+            of importance) should display an error-message that indicates that this sub-routine has also failed. These error-messages
+            should not conttain the "[ERROR]" part though. Instead they should begin with the right number of spaces to keep the text-
+            alignment appropriatly.
+           
+- "[INFO]"  Additional debug-information.
+
+- "[WARNING]" An error that has a high likelyhood of causing problems as long as the application is running, like memory leaks or memory
+              corruption.
+              
+- "[CRITICAL ERROR]" An error that is so problematic that the application should stop running. 
+
+Unfortunately as of now there hasn't been a debug-message-macro in use to disable these messages or an error-value to indicate the kind of error in the calling function. This notation was established before I have read code that had these features.
+
+
+2. Return Values
+----------------
+
+This section mentions the default return-values in case of failures. The kind of return-value depends on the return-type of the function and the purpose of the function. The following return values are often used:
+
+- "int"-Functions: If the return type of a function is "int" (the default return type) the default return value in case of an error is
+                   "0". If this function should return an index the default error value is "-1" to indicate that this value is invalid.
+                   
+- Pointer-Functions: The default error-Value for Pointer-Functions (functions that return a pointer (no matter what type of pointer) is 
+                     "NULL".
+                     
+- Double/Float-Functions: NOT SPECIFIED!
+
+
+
+3. Naming Conventions
+---------------------
+
+<WORK IN PROGRESS>
+
+
+
+4. Common Practices
+-------------------
+
+<WORK IN PROGRESS>
+
+
+
+
+
