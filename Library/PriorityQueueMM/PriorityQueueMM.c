@@ -1,3 +1,5 @@
+// READ THE DOCUMENTATION IN THE HEADER-FILE "PriorityQueueMM.h"
+
 #include "PriorityQueueMM.h"
 
 #define INCLUDE_PRIORITYQUEUEMM
