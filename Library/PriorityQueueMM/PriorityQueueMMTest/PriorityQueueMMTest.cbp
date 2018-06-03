@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PriorityQueueMMTest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PriorityQueueMMTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Winit-self" />
+					<Add option="-Wredundant-decls" />
+					<Add option="-Wcast-align" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PriorityQueueMMTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Basics/MyRandom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Basics/MyRandom.h" />
+		<Unit filename="src/Basics/PriorityQueueMM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Basics/PriorityQueueMM.h" />
+		<Unit filename="src/Basics/StringOP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Basics/StringOP.h" />
+		<Unit filename="src/Basics/Stringbuilder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Basics/Stringbuilder.h" />
+		<Unit filename="src/Test/TestEnvironment.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Test/TestEnvironment.h" />
+		<Unit filename="src/Test/TestItemProvider.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Test/TestItemProvider.h" />
+		<Unit filename="src/Test/TestPQADSim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Test/TestPQADSim.h" />
+		<Unit filename="src/Test/TestPQAFSim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Test/TestPQAFSim.h" />
+		<Unit filename="src/Test/TestPQSDSim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Test/TestPQSDSim.h" />
+		<Unit filename="src/Test/TestPQSFSim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Test/TestPQSFSim.h" />
+		<Unit filename="src/Test/TestResults.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Test/TestResults.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

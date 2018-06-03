@@ -1,0 +1,121 @@
+# depslib dependency file v1.0
+1525867535 source:d:\codeblocks programme\priorityqueuemmtest\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	<windows.h>
+	"src/Basics/StringOP.h"
+	"src/Test/TestEnvironment.h"
+
+1523614477 d:\codeblocks programme\priorityqueuemmtest\src\basics\stringop.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"Stringbuilder.h"
+
+1504951466 d:\codeblocks programme\priorityqueuemmtest\src\basics\stringbuilder.h
+	<stdio.h>
+
+1522430655 source:d:\codeblocks programme\priorityqueuemmtest\src\basics\myrandom.c
+	"MyRandom.h"
+
+1522430186 d:\codeblocks programme\priorityqueuemmtest\src\basics\myrandom.h
+	<stdio.h>
+	<stdint.h>
+	<time.h>
+
+1525790801 source:d:\codeblocks programme\priorityqueuemmtest\src\basics\priorityqueuemm.c
+	"PriorityQueueMM.h"
+
+1525867547 d:\codeblocks programme\priorityqueuemmtest\src\basics\priorityqueuemm.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+
+1505654633 source:d:\codeblocks programme\priorityqueuemmtest\src\basics\stringbuilder.c
+	"Stringbuilder.h"
+
+1523614430 source:d:\codeblocks programme\priorityqueuemmtest\src\basics\stringop.c
+	"StringOP.h"
+
+1525867035 d:\codeblocks programme\priorityqueuemmtest\src\test\testenvironment.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	"../Basics/StringOP.h"
+	"../Basics/MyRandom.h"
+	"../Basics/PriorityQueueMM.h"
+	"TestResults.h"
+	"TestPQSFSim.h"
+	"TestPQAFSim.h"
+	"TestPQSDSim.h"
+	"TestPQADSim.h"
+	"TestItemProvider.h"
+
+1523703289 d:\codeblocks programme\priorityqueuemmtest\src\test\testresults.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"../Basics/PriorityQueueMM.h"
+	"../Basics/StringOP.h"
+
+1523702372 d:\codeblocks programme\priorityqueuemmtest\src\test\testpqsfsim.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"TestEnvironment.h"
+	"TestResults.h"
+	"../Basics/PriorityQueueMM.h"
+
+1523624889 d:\codeblocks programme\priorityqueuemmtest\src\test\testitemprovider.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+
+1525867479 source:d:\codeblocks programme\priorityqueuemmtest\src\test\testenvironment.c
+	"TestEnvironment.h"
+
+1525539935 source:d:\codeblocks programme\priorityqueuemmtest\src\test\testitemprovider.c
+	"TestItemProvider.h"
+
+1523704006 source:d:\codeblocks programme\priorityqueuemmtest\src\test\testpqsfsim.c
+	"TestPQSFSim.h"
+
+1525102558 source:d:\codeblocks programme\priorityqueuemmtest\src\test\testresults.c
+	"TestResults.h"
+
+1524136751 d:\codeblocks programme\priorityqueuemmtest\src\test\testpqsdsim.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"TestEnvironment.h"
+	"TestResults.h"
+	"../Basics/PriorityQueueMM.h"
+
+1525698390 source:d:\codeblocks programme\priorityqueuemmtest\src\test\testpqsdsim.c
+	"TestPQSDSim.h"
+
+1525522994 d:\codeblocks programme\priorityqueuemmtest\src\test\testpqafsim.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"TestEnvironment.h"
+	"TestResults.h"
+	"../Basics/PriorityQueueMM.h"
+
+1525537718 source:d:\codeblocks programme\priorityqueuemmtest\src\test\testpqafsim.c
+	"TestPQAFSim.h"
+
+1525690944 d:\codeblocks programme\priorityqueuemmtest\src\test\testpqadsim.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"TestEnvironment.h"
+	"TestResults.h"
+	"../Basics/PriorityQueueMM.h"
+
+1525703317 source:d:\codeblocks programme\priorityqueuemmtest\src\test\testpqadsim.c
+	"TestPQADSim.h"
+
